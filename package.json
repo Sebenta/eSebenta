@@ -1,0 +1,21 @@
+{
+  "name": "e-sebenta",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "Eduardo Queirós",
+    "email": "code36u4r60@hotmail.com"
+  },
+  "repository": "/e-sebenta",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {}
+}
