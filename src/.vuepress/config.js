@@ -8,13 +8,11 @@ module.exports = {
       title: 'E-Sebenta',
       description: 'Caderno de exercícios e apontamentos de conteúdos Académicos.'
     },
-    /*
     '/en/': {
       lang: 'en-US',
       title: 'E-Sebenta',
       description: 'Exercise book and notes of academic content.'
     }
-    */
   },
 
   head: [
@@ -57,16 +55,6 @@ module.exports = {
     plugins: [
       '@vuepress/plugin-back-to-top',
       '@vuepress/plugin-medium-zoom',
-      [
-        'vuepress-plugin-mathjax',
-        {
-          target: 'svg',
-          macros: {
-            '*': '\\times',
-            '\\Z': '\\mathbb{Z}',
-          },
-        },
-      ],
     ]
   }
 }
@@ -84,7 +72,7 @@ function getPowerElectronicSidebar(groupA, groupB) {
       title: groupB,
       collapsable: false,
       children: [
-        'mult',
+        'multiple_choice',
       ]
     }
   ]
