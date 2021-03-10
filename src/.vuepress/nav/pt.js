@@ -1,6 +1,9 @@
 module.exports = [
   {
     text: 'Eletrônica de Potência',
-    link: '/power_electronics/'
+    link: '/pt/power_electronics/'
+  }, {
+    text: 'Redes de Computadores',
+    link: '/pt/data_communication_and_computer_network/'
   },
 ]

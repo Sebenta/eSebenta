@@ -20,7 +20,6 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
-
   themeConfig: {
     repo: '',
     editLinks: false,
@@ -37,7 +36,8 @@ module.exports = {
         lastUpdated: 'Last Updated',
         nav: require('./nav/pt'),
         sidebar: {
-          '/power_electronics/': getPowerElectronicSidebar('Eletrônica de Potência', 'Exercícios'),
+          '/pt/power_electronics/': getPowerElectronicSidebar('Eletrônica de Potência', 'Exercícios'),
+          '/pt/data_communication_and_computer_network/': dataCommunicationAndComputerNetwork('DCN', 'Exercícios'),
         }
       }, '/en/': {
         label: 'English',
@@ -73,6 +73,26 @@ function getPowerElectronicSidebar(groupA, groupB) {
       collapsable: false,
       children: [
         'multiple_choice',
+      ]
+    }
+  ]
+}
+
+function dataCommunicationAndComputerNetwork(groupA, groupB) {
+  return [
+    {
+      title: groupA,
+      collapsable: false,
+      children: [
+        '',
+        'summaries/ospf',
+      ]
+    },
+    {
+      title: groupB,
+      collapsable: false,
+      children: [
+        'problems_solved/problems_solved_1'
       ]
     }
   ]

@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: 
-actionText: Quick Start PT →
+heroImage: /images/logo.gif
+tagline: Created to help you
+# actionText: Quick Start PT →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by Eduardo Queirós with ❤️
+- title: Resumos
+  details: Aqui podes encontrar uma compilação de resumos sobre os conteúdos. 
+- title: Exercícios Resolvidos 
+  details: O objetivo é concentrar o máximo de exercícios possível.
+- title: Exercícios Propostos 
+  details: Vais encontrar várias listas de exercícios não resolvidos, contamos com a tua ajuda. 
+footer: This project was started by Eduardo Queirós with ❤️
 ---
