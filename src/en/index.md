@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: 
+heroImage: /images/logo.gif
+tagline: Created to help you
 # actionText: Quick Start→
 actionLink: /guide/
 features:
