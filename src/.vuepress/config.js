@@ -90,9 +90,13 @@ function dataCommunicationAndComputerNetwork(groupA, groupB) {
     },
     {
       title: groupB,
+      sidebarDepth: 0,
       collapsable: false,
       children: [
-        'problems_solved/problems_solved_1'
+        'problems_solved/true_or_false',
+        'problems_solved/multiple_choice',
+        'problems_solved/development_questions',
+
       ]
     }
   ]
