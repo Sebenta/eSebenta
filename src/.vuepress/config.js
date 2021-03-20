@@ -1,6 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
+  theme: 'yuu',
   plugins: [
     { 'vuepress-plugin-smooth-scroll': true },
     ['@vuepress/back-to-top'],

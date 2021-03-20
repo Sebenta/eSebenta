@@ -17,6 +17,7 @@
     "vuepress": "^1.5.3"
   },
   "dependencies": {
-    "@vuepress/plugin-back-to-top": "^1.8.2"
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "vuepress-theme-yuu": "^3.0.1"
   }
 }

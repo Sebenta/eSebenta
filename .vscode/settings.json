@@ -1,3 +1,4 @@
 {
-    "cSpell.language": ",pt,pt_PT"
+    "cSpell.language": ",pt,pt_PT",
+    "compile-hero.disable-compile-files-on-did-save-code": false
 }

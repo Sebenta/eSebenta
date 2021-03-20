@@ -1,6 +1,6 @@
 # Trabalho Prático 1
 
-<div style="display: flex;align-items: center;justify-content: center; margin:50px 0px;">
+<div class="card-dcn">
     <img src="/images/data_communication_and_computer_network/practical/1R2L.png" alt="Cenário do protocolo 1"/>
 </div>
 
