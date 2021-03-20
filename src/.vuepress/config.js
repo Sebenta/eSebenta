@@ -2,7 +2,7 @@ const { description } = require('../../package')
 
 module.exports = {
   plugins: [
-    {'vuepress-plugin-smooth-scroll': true},
+    { 'vuepress-plugin-smooth-scroll': true },
     ['@vuepress/back-to-top'],
   ],
   locales: {
@@ -40,7 +40,10 @@ module.exports = {
         nav: require('./nav/pt'),
         sidebar: {
           '/pt/power_electronics/': getPowerElectronicSidebar('Eletrônica de Potência', 'Exercícios'),
-          '/pt/data_communication_and_computer_network/': dataCommunicationAndComputerNetwork('DCN', 'Exercícios'),
+          '/pt/data_communication_and_computer_network/': dataCommunicationAndComputerNetwork(
+            'DCN',
+            'Exercícios',
+            'Trabalhos Práticos'),
         }
       }, '/en/': {
         label: 'English',
@@ -77,7 +80,7 @@ function getPowerElectronicSidebar(groupA, groupB) {
   ]
 }
 
-function dataCommunicationAndComputerNetwork(groupA, groupB) {
+function dataCommunicationAndComputerNetwork(groupA, groupB, groupC) {
   return [
     {
       title: groupA,
@@ -95,6 +98,14 @@ function dataCommunicationAndComputerNetwork(groupA, groupB) {
         'problems_solved/true_or_false',
         'problems_solved/multiple_choice',
         'problems_solved/development_questions',
+      ]
+    },
+    {
+      title: groupC,
+      sidebarDepth: 0,
+      collapsable: false,
+      children: [
+        'practical_work/work1',
       ]
     }
   ]
