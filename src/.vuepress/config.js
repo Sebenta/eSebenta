@@ -103,6 +103,7 @@ function dataCommunicationAndComputerNetwork(groupA, groupB, groupC) {
       children: [
         ['', groupA[1]],
         'summaries/ospf',
+        'summaries/icmp',
       ]
     },
     {
