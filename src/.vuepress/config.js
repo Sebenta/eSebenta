@@ -2,8 +2,11 @@ const { description } = require('../../package')
 
 module.exports = {
   theme: 'yuu',
+  globalUIComponents: [
+    'BuyMeACoffee'
+  ],
   plugins: [
-    { 'vuepress-plugin-smooth-scroll': true },
+    {'vuepress-plugin-smooth-scroll': true },
     ['@vuepress/back-to-top'],
     ['mathjax', {
       macros: {
