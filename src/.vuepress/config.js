@@ -107,12 +107,14 @@ function dataCommunicationAndComputerNetwork(groupA, groupB, groupC) {
         'summaries/icmp',
         'summaries/sockets',
         'summaries/rpc',
+        'summaries/transport_layer_protocols',
+        'summaries/util',
       ]
     },
     {
       title: groupB,
       sidebarDepth: 0,
-      collapsable: true,
+      collapsable: false,
       children: [
         'problems_solved/true_or_false',
         'problems_solved/multiple_choice',
@@ -122,7 +124,7 @@ function dataCommunicationAndComputerNetwork(groupA, groupB, groupC) {
     {
       title: groupC,
       sidebarDepth: 0,
-      collapsable: true,
+      collapsable: false,
       children: [
         'practical_work/work1',
         'practical_work/work2',

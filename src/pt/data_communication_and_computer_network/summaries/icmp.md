@@ -2,7 +2,7 @@
 
 ICMP é um protocolo de rede usado para enviar mensagens relacionadas com problemas que ocorrem durante a transmissão de dados.
 
-Como o protocolo IP trata-se de um protocolo não "confiável" do tipo best effort que não garante que os pacotes são entregues ao destinatário. Caso ocorra um problema na transmissão, o protocolo IP não notifica o problema ao emissor.
+Como o protocolo IP trata-se de um protocolo não "confiável" do tipo _best effort_ que não garante que os pacotes são entregues ao destinatário. Caso ocorra um problema na transmissão, o protocolo IP não notifica o problema ao emissor.
 
 O ICMP é o componente da pilha TCP/IP que lida com estas limitações do IP, exceto a "confiança", que têm de ser as camadas superiores a fornecer.
 
