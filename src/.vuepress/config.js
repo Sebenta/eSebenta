@@ -123,13 +123,17 @@ function dataCommunicationAndComputerNetwork(groupA, groupB, groupC) {
     },
     {
       title: groupC,
-      sidebarDepth: 0,
+      sidebarDepth: 1,
       collapsable: false,
       children: [
         'practical_work/work1',
         'practical_work/work2',
         'practical_work/work3',
         'practical_work/work4',
+        'practical_work/work5',
+        'practical_work/work6',
+        'practical_work/work7',
+        'practical_work/work8',
       ]
     }
   ]
