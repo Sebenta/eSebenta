@@ -7,6 +7,12 @@ module.exports = {
   ],
   plugins: [
     {'vuepress-plugin-smooth-scroll': true },
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'G-EJ40M7NQN3'
+      }
+    ],
     ['@vuepress/back-to-top'],
     ['mathjax', {
       macros: {
