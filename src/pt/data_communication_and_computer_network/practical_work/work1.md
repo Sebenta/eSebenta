@@ -24,7 +24,7 @@ Router# reload
 Router> enable
 Router# show ip interface brief
 ```
-#### Resultado
+##### Resultado
 ```batch
 Interface              IP-Address       OK? Method Status               Protocol
 FastEthernet 0/0        unassigned      YES NVRAM  administratively down down
@@ -37,7 +37,7 @@ Vlan1                   unassigned      YES NVRAM  administratively down down
 Router# configure terminal
 Router(config)# hostname R0
 ```
-#### Resultado
+##### Resultado
 ```batch
 R0(config)#
 ```
@@ -67,7 +67,7 @@ __Exemplo: PC 01__
 ```batch
 C:\>ping 192.168.20.2
 ```
-#### Resultado:
+##### Resultado:
 ```batch
 Pinging 192.168.20.2 with 32 bytes of data:
 
@@ -87,7 +87,7 @@ __Exemplo: PC 01 para PC 03__
 ```batch
 C:\>tracert 192.168.20.1
 ```
-#### Resultado:
+##### Resultado:
 ```batch
 Tracing route to 192.168.20.1 over a maximum of 30 hops:
 

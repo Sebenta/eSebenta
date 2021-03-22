@@ -5,6 +5,11 @@ module.exports = {
   plugins: [
     { 'vuepress-plugin-smooth-scroll': true },
     ['@vuepress/back-to-top'],
+    ['mathjax', {
+      macros: {
+          '\\Z': '\\mathbb{Z}',
+      },
+  }],
   ],
   locales: {
     '/': {
@@ -107,6 +112,8 @@ function dataCommunicationAndComputerNetwork(groupA, groupB, groupC) {
       collapsable: false,
       children: [
         'practical_work/work1',
+        'practical_work/work2',
+        'practical_work/work3',
       ]
     }
   ]
