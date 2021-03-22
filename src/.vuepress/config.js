@@ -99,11 +99,13 @@ function dataCommunicationAndComputerNetwork(groupA, groupB, groupC) {
   return [
     {
       title: groupA[0],
+      sidebarDepth: 2,
       collapsable: false,
       children: [
         ['', groupA[1]],
         'summaries/ospf',
         'summaries/icmp',
+        'summaries/sockets',
       ]
     },
     {
