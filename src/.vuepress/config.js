@@ -106,6 +106,7 @@ function dataCommunicationAndComputerNetwork(groupA, groupB, groupC) {
         'summaries/ospf',
         'summaries/icmp',
         'summaries/sockets',
+        'summaries/rpc',
       ]
     },
     {

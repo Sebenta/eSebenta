@@ -16,7 +16,7 @@ Quando ocorre um problema com a mensagem de ICMP não é enviada mensagem de ICM
 As mensagens ICMP têm todas um formato próprio, mas todas começam com os mesmos três campos.
 
 <div class="card-dcn">
-    <img src="/images/data_communication_and_computer_network/summaries/ICMP.png" alt="ospf tipos rede lsa">
+    <img src="/images/data_communication_and_computer_network/summaries/ICMP.png" alt="icmp">
 </div>
 
 - __Tipo:__ Identifica a classe de mensagens ICMP
