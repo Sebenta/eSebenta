@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/logo.gif
+heroImage: /images/logo.png
 tagline: Created to help you
 # actionText: Quick Start PT →
 actionLink: /guide/
