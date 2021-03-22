@@ -47,7 +47,7 @@ module.exports = {
         sidebar: {
           '/pt/power_electronics/': getPowerElectronicSidebar('Eletrônica de Potência', 'Exercícios'),
           '/pt/data_communication_and_computer_network/': dataCommunicationAndComputerNetwork(
-            'DCN',
+            ['DCN', 'Introdução'],
             'Exercícios',
             'Trabalhos Práticos'),
         }
@@ -89,10 +89,10 @@ function getPowerElectronicSidebar(groupA, groupB) {
 function dataCommunicationAndComputerNetwork(groupA, groupB, groupC) {
   return [
     {
-      title: groupA,
+      title: groupA[0],
       collapsable: false,
       children: [
-        '',
+        ['', groupA[1]],
         'summaries/ospf',
       ]
     },
