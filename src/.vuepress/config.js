@@ -30,7 +30,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
   themeConfig: {
-    repo: '',
+    repo: 'https://github.com/Sebenta/e-sebenta',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
@@ -99,7 +99,7 @@ function dataCommunicationAndComputerNetwork(groupA, groupB, groupC) {
     {
       title: groupB,
       sidebarDepth: 0,
-      collapsable: false,
+      collapsable: true,
       children: [
         'problems_solved/true_or_false',
         'problems_solved/multiple_choice',
@@ -109,11 +109,12 @@ function dataCommunicationAndComputerNetwork(groupA, groupB, groupC) {
     {
       title: groupC,
       sidebarDepth: 0,
-      collapsable: false,
+      collapsable: true,
       children: [
         'practical_work/work1',
         'practical_work/work2',
         'practical_work/work3',
+        'practical_work/work4',
       ]
     }
   ]
