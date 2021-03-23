@@ -7,8 +7,8 @@ module.exports = {
   ],
   plugins: [
     {'vuepress-plugin-smooth-scroll': true },
-    [
-      '@vuepress/google-analytics',
+    [ 
+      'google-gtag',
       {
         'ga': 'G-EJ40M7NQN3'
       }
