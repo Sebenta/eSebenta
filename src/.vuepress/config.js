@@ -6,6 +6,12 @@ module.exports = {
     'BuyMeACoffee'
   ],
   plugins: [
+    {'seo': { 
+      siteTitle: (_, $site) => $site.title,
+      title: $page => $page.title,
+      description: $page => $page.frontmatter.description,
+      author: (_, $site) => $site.themeConfig.author,
+    }},
     {'vuepress-plugin-smooth-scroll': true },
     [ 
       'google-gtag',
@@ -19,6 +25,9 @@ module.exports = {
           '\\Z': '\\mathbb{Z}',
       },
   }],
+  ],extraWatchFiles: [
+    '.vuepress/nav/en.js',
+    '.vuepress/nav/pt.js'
   ],
   locales: {
     '/': {
@@ -32,14 +41,15 @@ module.exports = {
       description: 'Exercise book and notes of academic content.'
     }
   },
-
   head: [
+    ['link', { rel: 'icon', href: `images/logo.png` }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
   themeConfig: {
     repo: 'https://github.com/Sebenta/e-sebenta',
+    author: "Eduardo Queirós",
     editLinks: false,
     docsDir: '',
     editLinkText: '',
