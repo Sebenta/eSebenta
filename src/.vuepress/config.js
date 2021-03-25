@@ -35,11 +35,11 @@ module.exports = {
       title: 'E-Sebenta',
       description: 'Caderno de exercícios e apontamentos de conteúdos Académicos.'
     },
-    '/en/': {
-      lang: 'en-US',
-      title: 'E-Sebenta',
-      description: 'Exercise book and notes of academic content.'
-    }
+    // '/en/': {
+    //   lang: 'en-US',
+    //   title: 'E-Sebenta',
+    //   description: 'Exercise book and notes of academic content.'
+    // }
   },
   head: [
     ['link', { rel: 'icon', href: `images/logo.png` }],
@@ -64,24 +64,15 @@ module.exports = {
         lastUpdated: 'Last Updated',
         nav: require('./nav/pt'),
         sidebar: {
-          '/pt/power_electronics/': getPowerElectronicSidebar('Eletrônica de Potência', 'Exercícios'),
+          '/pt/power_electronics/': getPowerElectronicSidebar(
+            ['Eletrónica de Potência', 'Introdução'],
+             'Exercícios'),
           '/pt/data_communication_and_computer_network/': dataCommunicationAndComputerNetwork(
             ['DCN', 'Introdução'],
             'Exercícios',
             'Trabalhos Práticos'),
         }
-      }, '/en/': {
-        label: 'English',
-        selectText: 'Languages',
-        ariaLabel: 'Select language',
-        editLinkText: 'Edit this page on GitHub',
-        lastUpdated: 'Last Updated',
-        nav: require('./nav/en'),
-        sidebar: {
-          '/en/power_electronics/': getPowerElectronicSidebar('Power electronics', 'Exercises'),
-        }
-      },
-
+      }
     }
   }
 }
@@ -89,17 +80,19 @@ module.exports = {
 function getPowerElectronicSidebar(groupA, groupB) {
   return [
     {
-      title: groupA,
+      title: groupA[0],
       collapsable: false,
       children: [
-        '',
+        ['', groupA[1]],
       ]
     },
     {
       title: groupB,
       collapsable: false,
       children: [
-        'multiple_choice',
+        'problems_solved/true_or_false',
+        'problems_solved/multiple_choice',
+        'problems_solved/development_questions',
       ]
     }
   ]

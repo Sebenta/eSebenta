@@ -206,8 +206,8 @@ __a. É uma solução para evitar a ocorrência de loops de routing.__
 ## Pergunta 16
 Considere o seguinte cenário de rede, onde todos os routers tèm o RIP versão 2 ativo, Neste cenário:
 
-<div style="display: flex;align-items: center;justify-content: center;">
-    <img src="/images/data_communication_and_computer_network/problems_solved/rip_version2.png" alt="Redes usando Rip Versão 2" style="max-width:650px;" />
+<div class="card-dcn">
+   <img src="/images/data_communication_and_computer_network/problems_solved/rip_version2.png" alt="Redes usando Rip Versão 2"/>
 </div>
 
 ### Selecione uma opção:
@@ -304,8 +304,8 @@ __c. Envia várias mensagens de ICMP Echo Request, cada uma delas com um TTL dif
 Considere o seguinte cenário, onde está a ser utilizado o OSPF como protocolo de routing. 
 
 Neste cenário:
-<div style="display: flex;align-items: center;justify-content: center;">
-    <img src="/images/data_communication_and_computer_network/problems_solved/OSPF_RIP.png" alt="Redes usando Rip Versão 2" style="max-width:800px;" />
+<div class="card-dcn">
+  <img src="/images/data_communication_and_computer_network/problems_solved/OSPF_RIP.png" alt="Redes usando Rip Versão 2"/>
 </div>
 
 ### Selecione uma opção:
@@ -322,9 +322,10 @@ __a. Cada um dos routers vai calcular as entradas da sua tabela de routing, de u
 Considere o seguinte cenário, onde está a ser utilizado o OSPF como protocolo de routing. 
 
 Neste cenário:
-<div style="display: flex;align-items: center;justify-content: center;">
-    <img src="/images/data_communication_and_computer_network/problems_solved/OSPF_RIP.png" alt="Redes usando Rip Versão 2" style="max-width:800px;" />
+<div class="card-dcn">
+<img src="/images/data_communication_and_computer_network/problems_solved/OSPF_RIP.png" alt="Redes usando Rip Versão 2"/>
 </div>
+
 
 ### Selecione uma opção:
 :white_large_square:&nbsp; a. Router1 vai anuncia a sua nova tabela de Routing a todos os routers.<br>
@@ -340,8 +341,9 @@ __a. Router1 vai anuncia a sua nova tabela de Routing a todos os routers.__
 Considere o seguinte cenário, onde estão a ser utilizados em simultâneo o OSPF e RIP como protocolos de routing, em todos os routers.
 
 Considere que as linhas série têm uma largura de banda de 1Mbps e que as redes locais são FastEthernet (100Mbps). O cenário encontra-se a funcionar corretamente e todos os PC conseguem comunicar entre si.
-<div style="display: flex;align-items: center;justify-content: center;">
-    <img src="/images/data_communication_and_computer_network/problems_solved/OSPF_RIP.png" alt="Redes usando Rip Versão 2" style="max-width:800px;" />
+
+<div class="card-dcn">
+    <img src="/images/data_communication_and_computer_network/problems_solved/OSPF_RIP.png" alt="Redes usando Rip Versão 2"/>
 </div>
 
 ### Selecione uma opção:
@@ -358,8 +360,9 @@ __c. Se o alguém colocar um cabo cruzado entre Switch2 e Switch4, não haverão
 Considere o seguinte cenário, onde está a ser utilizado o OSPF como protocolo de routing.
 
 Se ligações tiverem uma largura de banda de 1Mbps e as Redes Locais forem do tipo GigabitEthernet (Largura de Banda 1Gbps) então do ponto de vista de Router 1.
-<div style="display: flex;align-items: center;justify-content: center;">
-    <img src="/images/data_communication_and_computer_network/problems_solved/OSPF_RIP.png" alt="Redes usando Rip Versão 2" style="max-width:800px;" />
+
+<div class="card-dcn">
+    <img src="/images/data_communication_and_computer_network/problems_solved/OSPF_RIP.png" alt="Redes usando Rip Versão 2"/>
 </div>
 
 ### Selecione uma opção:
