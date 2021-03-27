@@ -14,7 +14,7 @@ __d. São atribuídas de acordo com a área de abrangência.__
 :::
 
 ## Pergunta 2
-Qual dos seguintes serviços é mais susceptível ao jitter (variação do atraso) ? 
+Qual dos seguintes serviços é mais suscetível ao jitter (variação do atraso) ? 
 
 ### Selecione uma opção:
 :white_large_square:&nbsp; a. Streaming de Video em HD.<br> 
@@ -385,7 +385,7 @@ O 3G e 4G são um exemplo de ...
 :white_large_square:&nbsp; d. WAN (Wide Area Network).
 
 :::details Resposta correta
-__WAN (Wide Area Network).__
+__d. WAN (Wide Area Network).__
 :::
 
 ## Pergunta 28
@@ -432,4 +432,95 @@ Uma LAN é:
 
 :::details Resposta correta
 __d. Uma rede Local, que pode estar ligada à Internet.__
+:::
+
+## Pergunta 31 
+Qual das seguintes a maior abrangência geográfica?
+
+### Selecione uma opção:
+:white_large_square:&nbsp; a. LAN<br>
+:white_large_square:&nbsp; b. WAN<br>
+:white_large_square:&nbsp; c. Pico LAN<br>
+:white_large_square:&nbsp; d. MAN
+
+:::details Resposta correta
+__b. WAN__
+:::
+
+## Pergunta 32
+Qual dos seguintes serviços é mais suscetível ao jitter (variação do atraso)?
+
+### Selecione uma opção:
+:white_large_square:&nbsp; a. TV em direto.<br>
+:white_large_square:&nbsp; b. Chamada de voz.<br>
+:white_large_square:&nbsp; c. Download de um ficheiro.<br>
+:white_large_square:&nbsp; d. Serviços online semelhantes ao moodle (durante a resolução de exames).
+
+:::details Resposta correta
+__b. Chamada de voz. && d. Serviços online semelhantes ao moodle (durante a resolução de exames).__
+:::
+
+## Pergunta 33
+O desenvolvimento dos protocolos em camadas:
+
+### Selecione uma opção:
+:white_large_square:&nbsp; a. Permite dividir as tarefas, em partes mais pequenas.<br> 
+:white_large_square:&nbsp; b. Serve para definir o gateway.<br>
+:white_large_square:&nbsp; c. É uma consequência da utilização das máscaras de rede.<br>
+:white_large_square:&nbsp; d. Garante que numa determinada rede apenas existe um router.
+
+:::details Resposta correta
+__a. Permite dividir as tarefas, em partes mais pequenas.__
+:::
+
+## Pergunta 34
+As comunicações que utilizam transmissão de dados de forma síncrona:
+
+### Selecione uma opção:
+:white_large_square:&nbsp; a. Não podem ser do tipo half-duplex.<br> 
+:white_large_square:&nbsp; b. Apenas podem ser to tipo simplex.<br>
+:white_large_square:&nbsp; c. Não podem ser do tipo full-duplex.<br> 
+:white_large_square:&nbsp; d. Podem ser do tipo half-duplex.
+
+:::details Resposta correta
+__d. Podem ser do tipo half-duplex.__
+:::
+
+## Pergunta 35
+Os protocolos:
+
+### Selecione uma opção:
+:white_large_square:&nbsp; a. Se forem implementados em camadas torna difícil a compatibilidade entre os equipamentos de diferentes fabricantes.<br>
+:white_large_square:&nbsp; b. Definem as regras que devem ser utilizadas pelas aplicações para mostrar a informação aos utilizadores.<br>
+:white_large_square:&nbsp; c. Definem as regras a utilizar na comunicação entre dois nós (por exemplo dois computadores).<br>
+:white_large_square:&nbsp; d. Se forem implementados de forma monolítica, a compatibilidade entre equipamentos de vários fabricantes fica garantida.
+
+:::details Resposta correta
+__c. Definem as regras a utilizar na comunicação entre dois nós (por exemplo dois computadores).__
+:::
+
+## Pergunta 36
+Dois computadores (PCA e PCB) estão a comunicar usando um protocolo que usa as 7 camadas do modelo OSI. Neste caso:
+
+### Selecione uma opção:
+:white_large_square:&nbsp; a. A camada 3 do PCA pode comunicar com a camada 2 do PCB.<br>
+:white_large_square:&nbsp; b. A camada 3 do PCA pode comunicar com qualquer camada do PCB.<br> 
+:white_large_square:&nbsp; c. A camada 3 do PCA pode comunicar com a camada 4 do PCB.<br>
+:white_large_square:&nbsp; d. A camada 3 do PCA apenas pode comunicar com a camada 3 do PCB.
+
+:::details Resposta correta
+__d. A camada 3 do PCA apenas pode comunicar com a camada 3 do PCB.__
+:::
+
+## Pergunta 37
+Os protocolos:
+
+### Selecione uma opção:
+:white_large_square:&nbsp; a. Podem ser desenvolvidos de forma monolítica ou em camadas.<br>
+:white_large_square:&nbsp; b. Têm de incluir funções relacionadas com a interface gráfica com o utilizador.<br>
+:white_large_square:&nbsp; c. Não podem ser desenvolvidos de forma monolítica.<br>
+:white_large_square:&nbsp; d. Têm de ser obrigatoriamente desenvolvidos em camadas.
+
+:::details Resposta correta
+__a. Podem ser desenvolvidos de forma monolítica ou em camadas.__
 :::

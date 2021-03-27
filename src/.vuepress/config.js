@@ -64,6 +64,10 @@ module.exports = {
         lastUpdated: 'Last Updated',
         nav: require('./nav/pt'),
         sidebar: {
+          '/pt/communication_systems/' : getCommunicationSystemsSidebar(
+            ['Fundamentos de Telecomunicações', 'Introdução'],
+            'Exercícios',
+          ),
           '/pt/power_electronics/': getPowerElectronicSidebar(
             ['Eletrónica de Potência', 'Introdução'],
              'Exercícios'),
@@ -75,6 +79,27 @@ module.exports = {
       }
     }
   }
+}
+
+function getCommunicationSystemsSidebar(groupA, groupB) {
+  return [
+    {
+      title: groupA[0],
+      collapsable: false,
+      children: [
+        ['', groupA[1]],
+      ]
+    },
+    {
+      title: groupB,
+      collapsable: false,
+      children: [
+        'problems_solved/true_or_false',
+        'problems_solved/multiple_choice',
+        'problems_solved/development_questions',
+      ]
+    }
+  ]
 }
 
 function getPowerElectronicSidebar(groupA, groupB) {
