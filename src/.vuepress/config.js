@@ -94,8 +94,8 @@ function getCommunicationSystemsSidebar(groupA, groupB) {
       title: groupB,
       collapsable: false,
       children: [
-        'problems_solved/true_or_false',
-        'problems_solved/multiple_choice',
+        // 'problems_solved/true_or_false',
+        // 'problems_solved/multiple_choice',
         'problems_solved/development_questions',
       ]
     }
