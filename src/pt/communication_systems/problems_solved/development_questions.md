@@ -1,6 +1,7 @@
 # Perguntas de Desenvolvimento
 
 ## Pergunta  1
+
 O que é amostragem? O que é o teorema de amostragem?
 
 :::details Resposta
@@ -16,12 +17,14 @@ Caso contrário produz-se um fenómeno indesejável, denominado de _aliasing_ qu
 :::
 
 ## Pergunta 2
+
 Defina PAM e diga quais as suas desvantagens.
 
 :::details Resposta
 __Modulação de amplitude de pulso (PAM)__,é uma forma de modulação de sinal onde as informações da mensagem são codificadas na amplitude de uma série de pulsos de sinal. É um esquema analógico de modulação de pulso no qual as amplitudes de um trem de pulsos portadores são variadas de acordo com o valor amostral do sinal de mensagem. A desmodulação é realizada detetando o nível de amplitude do portador em cada período.
 
 __As desvantagens:__
+
 - Como a amplitude dos pulsos varia, a potência de pico do sinal de modulação é maior.
 - A energia do transmissor instantâneo varia com a amplitude dos pulsos.
 - A complexidade do sistema é alta.
@@ -29,6 +32,7 @@ __As desvantagens:__
 :::
 
 ## Pergunta 3
+
 O que se subentende com taxa de Nyquist?
 
 :::details Resposta

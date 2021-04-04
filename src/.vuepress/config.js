@@ -54,7 +54,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: true,
-    smoothScroll: true, //ver 
+    smoothScroll: true,
     locales: {
       '/': {
         label: 'Portuguese',
@@ -67,6 +67,7 @@ module.exports = {
           '/pt/communication_systems/' : getCommunicationSystemsSidebar(
             ['Fundamentos de Telecomunicações', 'Introdução'],
             'Exercícios',
+            'Projetos'
           ),
           '/pt/power_electronics/': getPowerElectronicSidebar(
             ['Eletrónica de Potência', 'Introdução'],
@@ -81,7 +82,7 @@ module.exports = {
   }
 }
 
-function getCommunicationSystemsSidebar(groupA, groupB) {
+function getCommunicationSystemsSidebar(groupA, groupB, groupC) {
   return [
     {
       title: groupA[0],
@@ -94,9 +95,14 @@ function getCommunicationSystemsSidebar(groupA, groupB) {
       title: groupB,
       collapsable: false,
       children: [
-        // 'problems_solved/true_or_false',
-        // 'problems_solved/multiple_choice',
         'problems_solved/development_questions',
+      ]
+    },    {
+      title: groupC,
+      sidebarDepth:3,
+      collapsable: false,
+      children: [
+        'projects/pam-pwm-ppm',
       ]
     }
   ]
