@@ -4,6 +4,29 @@ html, body{
 font-family: 'Roboto', sans-serif;
 }
 
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+    .card{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        background-color: #4158D0;
+        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+        color: var(--textColor)
+        border-radius: 8px;
+        padding: 1rem;
+        img{
+            width:100%;
+        }
+    }
+}
+
 .card{
     display: flex;
     align-items: center;
@@ -76,3 +99,38 @@ font-family: 'Roboto', sans-serif;
         border-radius: 8px;
     }
 }
+
+.programming{
+   display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin:50px 0;
+
+        img{
+            max-width: 450px;
+        }
+
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            h1{
+                line-height: 1.6;
+                font-weight: bold;
+                text-align: center;
+                text-justify: inter-word;
+                span{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+

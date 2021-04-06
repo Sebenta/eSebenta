@@ -9,4 +9,3 @@
     - Verdadeiro e Falso
     - Desenvolvimento e cálculo 
     - . . .
-

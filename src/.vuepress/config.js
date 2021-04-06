@@ -6,14 +6,16 @@ module.exports = {
     'BuyMeACoffee'
   ],
   plugins: [
-    {'seo': { 
-      siteTitle: (_, $site) => $site.title,
-      title: $page => $page.title,
-      description: $page => $page.frontmatter.description,
-      author: (_, $site) => $site.themeConfig.author,
-    }},
-    {'vuepress-plugin-smooth-scroll': true },
-    [ 
+    {
+      'seo': {
+        siteTitle: (_, $site) => $site.title,
+        title: $page => $page.title,
+        description: $page => $page.frontmatter.description,
+        author: (_, $site) => $site.themeConfig.author,
+      }
+    },
+    { 'vuepress-plugin-smooth-scroll': true },
+    [
       'google-gtag',
       {
         'ga': 'G-EJ40M7NQN3'
@@ -22,10 +24,10 @@ module.exports = {
     ['@vuepress/back-to-top'],
     ['mathjax', {
       macros: {
-          '\\Z': '\\mathbb{Z}',
+        '\\Z': '\\mathbb{Z}',
       },
-  }],
-  ],extraWatchFiles: [
+    }],
+  ], extraWatchFiles: [
     '.vuepress/nav/en.js',
     '.vuepress/nav/pt.js'
   ],
@@ -64,18 +66,22 @@ module.exports = {
         lastUpdated: 'Last Updated',
         nav: require('./nav/pt'),
         sidebar: {
-          '/pt/communication_systems/' : getCommunicationSystemsSidebar(
+          '/pt/communication_systems/': getCommunicationSystemsSidebar(
             ['Fundamentos de Telecomunicações', 'Introdução'],
             'Exercícios',
             'Projetos'
           ),
           '/pt/power_electronics/': getPowerElectronicSidebar(
             ['Eletrónica de Potência', 'Introdução'],
-             'Exercícios'),
-          '/pt/data_communication_and_computer_network/': dataCommunicationAndComputerNetwork(
+            'Exercícios'),
+          '/pt/data_communication_and_computer_network/': getCommunicationAndComputerNetwork(
             ['DCN', 'Introdução'],
             'Exercícios',
             'Trabalhos Práticos'),
+          '/pt/programming/': getProgramming(
+            ['Ciências da Computação', 'Introdução'],
+            'Hacker Rank - 30 Days Of Code Challenges',
+          ),
         }
       }
     }
@@ -97,9 +103,9 @@ function getCommunicationSystemsSidebar(groupA, groupB, groupC) {
       children: [
         'problems_solved/development_questions',
       ]
-    },    {
+    }, {
       title: groupC,
-      sidebarDepth:3,
+      sidebarDepth: 3,
       collapsable: false,
       children: [
         'projects/pam-pwm-ppm',
@@ -129,7 +135,7 @@ function getPowerElectronicSidebar(groupA, groupB) {
   ]
 }
 
-function dataCommunicationAndComputerNetwork(groupA, groupB, groupC) {
+function getCommunicationAndComputerNetwork(groupA, groupB, groupC) {
   return [
     {
       title: groupA[0],
@@ -171,4 +177,25 @@ function dataCommunicationAndComputerNetwork(groupA, groupB, groupC) {
       ]
     }
   ]
+}
+
+function getProgramming(groupA, groupB) {
+  return [
+    {
+      title: groupA[0],
+      collapsable: false,
+      children: [
+        ['', groupA[1]],
+      ]
+    },
+    {
+      title: groupB,
+      collapsable: false,
+      children: [
+        'hacker_rank/30DaysOfCodeChallenges/',
+        'hacker_rank/30DaysOfCodeChallenges/Day00_HelloWorld'
+      ]
+    }
+  ]
+
 }

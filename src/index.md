@@ -2,6 +2,8 @@
 home: true
 heroImage: /images/logo.png
 tagline: Created to help you
+actionText: Get Started →
+actionLink: /pt/
 features:
 - title: Resumos
   details: Aqui podes encontrar uma compilação de resumos sobre os conteúdos. 
