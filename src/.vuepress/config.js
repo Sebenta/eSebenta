@@ -193,7 +193,11 @@ function getProgramming(groupA, groupB) {
       collapsable: false,
       children: [
         'hacker_rank/30DaysOfCodeChallenges/',
-        'hacker_rank/30DaysOfCodeChallenges/Day00_HelloWorld'
+        'hacker_rank/30DaysOfCodeChallenges/HelloWorld',
+        'hacker_rank/30DaysOfCodeChallenges/DataTypes',
+        'hacker_rank/30DaysOfCodeChallenges/Operators',
+        'hacker_rank/30DaysOfCodeChallenges/IntroToConditionalStatements',
+        'hacker_rank/30DaysOfCodeChallenges/ClassVsInstance',
       ]
     }
   ]
