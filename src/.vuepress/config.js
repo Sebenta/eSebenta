@@ -88,6 +88,7 @@ module.exports = {
             'Trabalhos Práticos'),
           '/pt/programming/': getProgramming(
             ['Ciências da Computação', 'Introdução'],
+            'Cheat Sheet',
             'Hacker Rank - 30 Days Of Code Challenges',
           ),
         }
@@ -187,7 +188,7 @@ function getCommunicationAndComputerNetwork(groupA, groupB, groupC) {
   ]
 }
 
-function getProgramming(groupA, groupB) {
+function getProgramming(groupA, groupB, groupC) {
   return [
     {
       title: groupA[0],
@@ -198,6 +199,13 @@ function getProgramming(groupA, groupB) {
     },
     {
       title: groupB,
+      collapsable: false,
+      children: [
+        'cheat_sheet/css',
+      ]
+    },
+    {
+      title: groupC,
       collapsable: false,
       children: [
         'hacker_rank/30DaysOfCodeChallenges/',
