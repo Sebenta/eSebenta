@@ -47,7 +47,15 @@ module.exports = {
     ['link', { rel: 'icon', href: `images/logo.png` }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    [
+      "script",
+      {
+        "data-ad-client":"ca-pub-9883537577031298",
+        async: true,
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+      },
+    ],
   ],
   themeConfig: {
     repo: 'https://github.com/Sebenta/e-sebenta',
