@@ -81,7 +81,7 @@ S    192.168.2.0/24 [1/0] via 10.10.10.2
 ```
 
 ### Configure as rotas necessárias para que todos os host possam comunicar entre si.
-```bacth
+```batch
 R1(config)# ip route 192.168.1.0 255.255.255.0 10.10.10.1
 R1(config)# exit
 R1> show ip route

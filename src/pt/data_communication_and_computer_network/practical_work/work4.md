@@ -44,7 +44,7 @@ R0(config-if)# do show ip interface brief
 ```
 
 ##### Resultado:
-```bacth
+```batch
 Interface              IP-Address      OK? Method Status                Protocol
 FastEthernet0/0        192.168.0.254   YES manual up                    up
 FastEthernet0/1        unassigned      YES unset  administratively down down
