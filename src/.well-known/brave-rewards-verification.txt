@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: e-sebenta.pt
+Token: 767f00d80748c462f21143079445859e51bcb0aa645affe96df3e469fd57b828
