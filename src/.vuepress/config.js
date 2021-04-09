@@ -91,6 +91,9 @@ module.exports = {
             'Cheat Sheet',
             'Hacker Rank - 30 Days Of Code Challenges',
           ),
+          '/pt/instrumentation_sensors/': getInstrumentationSensors(
+            'Instrumentação e Sensores',
+          ),
         }
       }
     }
@@ -214,6 +217,20 @@ function getProgramming(groupA, groupB, groupC) {
         'hacker_rank/30DaysOfCodeChallenges/Operators',
         'hacker_rank/30DaysOfCodeChallenges/IntroToConditionalStatements',
         'hacker_rank/30DaysOfCodeChallenges/ClassVsInstance',
+      ]
+    }
+  ]
+
+}
+
+function getInstrumentationSensors(groupA) {
+  return [
+    {
+      title: groupA,
+      collapsable: false,
+      children: [
+        ['', 'Introdução'],
+        'problems_solved',
       ]
     }
   ]
