@@ -281,7 +281,7 @@ O valor de $C_x$ é ...
 :white_large_square:&nbsp; ... $4,00pF$.
 
 :::details Resposta correta
-__... $4,00pF$__
+__... $4,00nF$__
 :::
 
 ### b)
